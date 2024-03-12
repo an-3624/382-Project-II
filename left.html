@@ -12,4 +12,10 @@
     <li><a href="part 5 edited by abhi.html" target="content">Customer Testimonials</a></li> -->
   </ul>
 </body>
+    <footer>
+        <p>Last modified: <span id="lastModified"></span></p>
+    </footer>
+    <script>
+        document.getElementById('lastModified').textContent = new Date(document.lastModified).toLocaleDateString();
+    </script>
 </html>
