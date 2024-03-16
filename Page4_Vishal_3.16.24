@@ -7,7 +7,7 @@
 </head>
 <body style="background-color: #F8F1E2; color: #404040; font-family: Times New Roman, serif;">
     <center>
-        <h1 style="font-size: 32px;"><strong>Our Services</strong></h1>
+        <h1 style="font-size: 32px;  font-family: Courier"><strong>Our Services</strong></h1>
     </center>
     <table width="100%">
         <tr>
@@ -45,4 +45,10 @@
         <h2 style="font-size: 24px;"><strong>Let Your Story Be Heard</strong></h2>
     </center>
 </body>
+      <footer>
+        <p style= 'font-family: Times-New-Roman; font-size: 16px; text-align: center'>Last modified: <span id="lastModified"></span></p>
+    </footer>
+    <script>
+        document.getElementById('lastModified').textContent = new Date(document.lastModified).toLocaleDateString();
+    </script>
 </html>
