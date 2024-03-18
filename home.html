@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+</head>
+<body>
+    <h1 style="font-family: 'Courier'; font-size: 32pt; color: #C25629;">Willie and Willys Writing Warehouse</h1>
+    <h2 style="font-size: 16pt;">Team 14</h2>
+    <ul>
+        <li>Chalen Jack</li>
+        <li>Vishal Madisetti</li>
+        <li>Abhi Narayanan</li>
+        <li>Zach Sullivan</li>
+    </ul>
+
+    <footer>
+        <p>Last modified: <span id="lastModified"></span></p>
+    </footer>
+    <script>
+        document.getElementById('lastModified').textContent = new Date(document.lastModified).toLocaleDateString();
+    </script>
+</body>
+</html>
